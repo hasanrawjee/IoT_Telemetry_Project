@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+
+# Data and Databases
+data/*.db
+data/*.sqlite3
+postgres_data/
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
+
+scripts/
+sensor.csv
