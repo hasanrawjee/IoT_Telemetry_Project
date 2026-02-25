@@ -76,7 +76,7 @@ services:
     volumes:
       - grafana-storage:/var/lib/grafana
       - .:/var/lib/grafana/data-source:ro
-      - ./data:/var/lib/grafana/data-source:ro
+      - ./data:/var/lib/grafana/data-source
     depends_on:
       - gold-storage
 
